@@ -24,7 +24,7 @@ const Login = () => {
       <div>
         <form className="mt-4 space-y-4 text-sm font-normal" onSubmit={(e) => handleSubmit(e)}>
           <div>
-            <label className="block text-gray-600" htmlFor="name">Full Name</label>
+            <label className="block text-nuetral-500" htmlFor="name">Full Name</label>
             <input className="w-full mt-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" id="name" name="name" value={name} type="text" onChange={(e) => setName(e.target.value)} required placeholder="Enter your full name" />
           </div>
           <div>

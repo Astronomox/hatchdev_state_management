@@ -20,7 +20,7 @@ const Login = () => {
   return (
     <div className="mx-auto max-w-md bg-white border border-black p-8 sm:p-10 shadow-[8px_8px_0_0_#000]">
       <p className="text-[10px] uppercase tracking-[0.3em] text-neutral-500">Welcome back</p>
-      <h1 className="mt-2 text-3xl font-bold uppercase tracking-tighter">Please login to continue</h2>
+      <h1 className="mt-2 text-3xl font-bold uppercase tracking-tighter">Please login to continue</h1>
 
       <div>
         <form className="mt-10 space-y-8 text-sm" onSubmit={(e) => handleSubmit(e)}>

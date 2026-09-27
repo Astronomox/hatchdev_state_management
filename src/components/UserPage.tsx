@@ -6,7 +6,7 @@ const PER_PAGE = 5
 
 const UserPage = () => {
   const [page, setPage] = useState(1)
-  const visible = items.slice(0, PER_PAGE)
+  const visible = items.slice((page - 1) * PER_PAGE, page * PER_PAGE)
 
   return (
     <div>

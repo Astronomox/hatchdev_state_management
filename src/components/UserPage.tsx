@@ -1,8 +1,8 @@
-import React from 'react'
+// import React from 'react'
 
 const UserPage = () => {
   return (
-    <div>UserPage</div>
+    <div className="text-2xl font-bold text-gray-800">UserPage</div>
   )
 }
 

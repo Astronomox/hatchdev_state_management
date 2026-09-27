@@ -18,7 +18,7 @@ const Login = () => {
 
 
   return (
-    <div className="mt-6 max-w-md bg-white p-6 rounded-xl shadow-md text-lg font-semibold text-gray-800">
+    <div className="mt-6 max-w-md bg-white p-6 shadow-md text-lg font-semibold text-gray-800">
       Welcome Back, Please Login to Continue
 
       <div>

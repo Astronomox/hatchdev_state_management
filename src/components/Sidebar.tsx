@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
     <div className="h-screen bg-black text-white p-4 col-span-2 row-span-2">
       <UserProfile />
-      <button onClick={handleLogout} className="w-full border border-white hover:bg-white hover:text-black text-white font-bold py-2 px-4 rounded-md">
+      <button onClick={handleLogout} className="w-full border border-white hover:bg-white hover:text-black text-white font-bold py-2 px-4">
         Logout
       </button>
     </div>

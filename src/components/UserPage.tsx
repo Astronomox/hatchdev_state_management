@@ -6,6 +6,7 @@ const PER_PAGE = 5
 
 const UserPage = () => {
   const [page, setPage] = useState(1)
+  const totalPages = Math.ceil(items.length / PER_PAGE)
   const visible = items.slice((page - 1) * PER_PAGE, page * PER_PAGE)
 
   return (
@@ -17,8 +18,8 @@ const UserPage = () => {
         ))}
       </ul>
       <div className="mt-4 flex gap-2 items-center">
-        <button onClick={() => setPage(page - 1)}>Prev</button>
-        <button onClick={() => setPage(page + 1)}>Next</button>
+        <button onClick={() => setPage(page - 1)} disabled={page === 1}>Prev</button>
+        <button onClick={() => setPage(page + 1)} disabled={page === totalPage}>Next</button>
       </div>
     </div>
   )

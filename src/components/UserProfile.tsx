@@ -27,7 +27,7 @@ const UserProfile = ({ dark = false }: UserProfileProps) => {
         {user.name && user.email ? (
           <>
             <p className="truncate text-sm font-medium">{user.name}</p>
-            <p className={`truncate text-xs ${mutted}`}>{user.email}</p>
+            <p className={`truncate text-xs ${muted}`}>{user.email}</p>
           </>
         ) : (
           <p className={`text-sm ${muted}`}>No user logged in</p>

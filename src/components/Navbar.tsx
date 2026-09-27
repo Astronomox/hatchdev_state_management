@@ -5,7 +5,7 @@ type NavbarProps = {
   onMenuClick: () => void
 }
 
-const bar = 'block h-0.5 w-5 bg-black transition-all duration-300'
+const bar = 'block h-0.5 w-5 bg-black transition-all duration-300 group-hover:bg-white'
 
 const Navbar = ({ menuOpen, onMenuClick }: NavbarProps) => {
   return (

@@ -2,7 +2,7 @@
 
 const UserPage = () => {
   return (
-    <div className="text-2xl font-bold text-black">UserPage</div>
+    <div className="text-3xl font-bold text-black">UserPage</div>
   )
 }
 

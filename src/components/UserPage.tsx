@@ -2,7 +2,7 @@
 
 const UserPage = () => {
   return (
-    <div className="text-2xl font-bold text-black uppercase">UserPage</div>
+    <div className="text-2xl font-bold text-black uppercase tracking-wide">UserPage</dvi>
   )
 }
 

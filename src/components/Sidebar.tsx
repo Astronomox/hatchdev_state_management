@@ -23,7 +23,7 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
       {/* backdrop on small screens */}
       <div
         onClick={onClose}
-        className={`fixed inset-0 z-30 bg-black/40 transition-opacity duration-300 ${open ? 'opacity-100' : 'pointer-events-none opacity-0'}`}
+        className={`fixed inset-0 z-30 bg-black/40 transition-opacity duration-300 md:hidden ${open ? 'opacity-100' : 'pointer-events-none opacity-0'}`}
       />
       <aside
         className={`fixed inset-y-0 left-0 z-40 flex w-72 flex-col bg-black p-6 text-white transition-transform duration-300 ${open ? 'translate-x-0' : '-translate-x-full'}`}

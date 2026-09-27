@@ -4,7 +4,7 @@ import { setUser } from '../redux/user/userSlice'
 
 const Login = () => {
   const [name, setName] = React.useState('')
-  const [email, setEmial] = React.useState('')
+  const [email, setEmail] = React.useState('')
   const dispatch = useDispatch()
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {

@@ -18,9 +18,9 @@ const Navbar = ({ menuOpen, onMenuClick }: NavbarProps) => {
           className="group grid h-10 w-10 place-items-center border border-black transition-colors duration-300 hover:bg-black"
         >
           <span className="flex flex-col gap-1.5">
-            <span className={`${bar}`} />
-            <span className={`${bar}`} />
-            <span className={`${bar}`} />
+            <span className={`${bar} ${menuOpen ? 'translate-y-2 rotat-45' : ''}`} />
+            <span className={`${bar} ${menuOpen ? 'opacity-0' : ''}`} />
+            <span className={`${bar} ${menuOpen ? '-translate-y-2 -rotate-45' : ''}`} />
           </span>
         </button>
         <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Dashboard</span>

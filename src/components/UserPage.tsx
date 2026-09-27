@@ -18,6 +18,7 @@ const UserPage = () => {
       </ul>
       <div className="mt-4 flex gap-2 items-center">
         <button onClick={() => setPage(page + 1)}>Next</button>
+      </div>
     </div>
   )
 }

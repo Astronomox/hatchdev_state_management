@@ -18,7 +18,7 @@ const Login = () => {
 
 
   return (
-    <div className="mt-6 max-w-md border border-black p-6 text-lg font-semibold text-gray-800 uppercase">
+    <div className="mt-6 max-w-md border border-black p-6 text-lg font-semibold uppercase tracking-wide">
       Welcome Back, Please Login to Continue
 
       <div>

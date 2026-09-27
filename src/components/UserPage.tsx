@@ -42,7 +42,7 @@ const UserPage = () => {
 
       <div className="mt-10 flex items-center justify-between gap-4">
         <p className="hidden text-xs text-neutral-500 sm:block">
-          Showing {start + 1}&ndash;{start + visble.length} of {items.length}
+          Showing {start + 1}&ndash;{start + visible.length} of {items.length}
         </p>
         <div className="flex gap-2 text-xs uppercase tracking-widest">
           <button

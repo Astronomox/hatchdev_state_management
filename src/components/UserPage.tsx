@@ -20,7 +20,7 @@ const UserPage = () => {
       <div className="mt-4 flex gap-2 items-center">
         <button onClick={() => setPage(page - 1)} disabled={page === 1} className="px-3 py-1 border border-black disabled:opacity-30">Prev</button>
         {Array.from({ length: totalPages }, (_, i) => i + 1).map((n) => (
-          <button key={n} onClick={setPage(n)} className="px-3 py-1 border border-black">{n}</button>
+          <button key={n} onClick={() => setPage(n)} className="px-3 py-1 border border-black">{n}</button>
         ))}
         <button onClick={() => setPage(page + 1)} disabled={page === totalPages} className="px-3 py-1 border border-black disabled:opacity-30">Next</button>
       </div>

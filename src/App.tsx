@@ -14,7 +14,7 @@ const App = () => {
     <div className="min-h-screen bg-neutral-100 text-black">
       <Sidebar open={menuOpen} onClose={() => setMenuOpen(false)} />
       <div className={`transition-[padding] duration-300 ${menuOpen ? 'md:pl-72' : ''}`}>
-        <Navbar menuOpen={menuOpen} onMenuClick={() => setMenuOpen(menuOpen)} />
+        <Navbar menuOpen={menuOpen} onMenuClick={() => setMenuOpen(!menuOpen)} />
         <main className="mx-auto max-w-3xl px-6 py-12 sm:py-16">
           {isLoggedIn ? <UserPage /> : <Login />}
         </main>

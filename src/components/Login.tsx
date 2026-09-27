@@ -31,7 +31,7 @@ const Login = () => {
             <label className="block text-neutral-500" htmlFor="email">Email</label>
             <input className="w-full mt-1 px-3 py-2 border border-black focus:outline-none focus:bg-neutral-100" id="email" name="email" value={email} type="email" onChange={(e) => setEmail(e.target.value)} required placeholder="Enter your email" />
           </div>
-          <button className="w-full bg-black hover:bg-neutral-700 text-white font-semibold py-2 rounded-md" type="submit">
+          <button className="w-full bg-black hover:bg-neutral-700 text-white font-semibold py-2" type="submit">
             Login
           </button>
         </form>

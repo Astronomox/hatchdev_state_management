@@ -6,7 +6,7 @@ import UserPage from './components/UserPage'
 
 const App = () => {
   return (
-    <div className="grid grid-cols-5 min-h-screen bg-white text-blak">
+    <div className="grid grid-cols-5 min-h-screen bg-white text-black">
       <Sidebar />
       <Navbar />
       <div className="col-span-3 p-4">

@@ -1,6 +1,7 @@
 // import React from 'react'
 
 const items = Array.from({ length: 20 }, (_, i) => `Item ${i + 1}`)
+const PER_PAGE = 5
 
 const UserPage = () => {
   return (

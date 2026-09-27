@@ -18,8 +18,8 @@ const UserPage = () => {
         ))}
       </ul>
       <div className="mt-4 flex gap-2 items-center">
-        <button onClick={() => setPage(page - 1)} disabled={page === 1}>Prev</button>
-        <button onClick={() => setPage(page + 1)} disabled={page === totalPages}>Next</button>
+        <button onClick={() => setPage(page - 1)} disabled={page === 1} className="px-3 py-1 border border-black disabled:opacity-30">Prev</button>
+        <button onClick={() => setPage(page + 1)} disabled={page === totalPages} className="px-3 py-1 border border-black disabled:opacity-30">Next</button>
       </div>
     </div>
   )

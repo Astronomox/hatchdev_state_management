@@ -17,7 +17,7 @@ const UserPage = () => {
           <li key={item} className="px-4 py-2">{item}</li>
         ))}
       </ul>
-      <div className="mt-4 flex gap-2 items-center">
+      <div className="mt-4 flex gap-2 items-center text-sm uppercase tracking-widest">
         <button onClick={() => setPage(page - 1)} disabled={page === 1} className="px-3 py-1 border border-black disabled:opacity-30">Prev</button>
         {Array.from({ length: totalPages }, (_, i) => i + 1).map((n) => (
           <button key={n} onClick={() => setPage(n)} className={`px-3 py-1 border border-black ${n === page ? 'bg-black text-white' : ''}`}>{n}</button>

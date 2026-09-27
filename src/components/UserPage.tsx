@@ -4,11 +4,13 @@ const items = Array.from({ length: 20 }, (_, i) => `Item ${i + 1}`)
 const PER_PAGE = 5
 
 const UserPage = () => {
+  const visible = items.slice(0, PER_PAGE)
+
   return (
     <div>
       <div className="text-2xl font-bold text-black uppercase tracking-wide">UserPage</div>
       <ul className="mt-4 max-w-md border border-black divide-y divide-black">
-        {items.map((item) => (
+        {visible.map((item) => (
           <li key={item} className="px-4 py-2">{item}</li>
         ))}
       </ul>

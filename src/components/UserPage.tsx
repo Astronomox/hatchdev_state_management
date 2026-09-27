@@ -16,6 +16,8 @@ const UserPage = () => {
           <li key={item} className="px-4 py-2">{item}</li>
         ))}
       </ul>
+      <div className="mt-4 flex gap-2 items-center">
+        <button onClick={() => setPage(page + 1)}>Next</button>
     </div>
   )
 }

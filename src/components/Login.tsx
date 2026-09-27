@@ -29,7 +29,7 @@ const Login = () => {
           </div>
           <div>
             <label className="block text-neutral-500" htmlFor="email">Email</label>
-            <input className="w-full mt-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" id="email" name="email" value={email} type="email" onChange={(e) => setEmail(e.target.value)} required placeholder="Enter your email" />
+            <input className="w-full mt-1 px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" id="email" name="email" value={email} type="email" onChange={(e) => setEmail(e.target.value)} required placeholder="Enter your email" />
           </div>
           <button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 rounded-md" type="submit">
             Login

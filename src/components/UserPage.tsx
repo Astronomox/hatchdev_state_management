@@ -19,7 +19,7 @@ const UserPage = () => {
       </ul>
       <div className="mt-4 flex gap-2 items-center">
         <button onClick={() => setPage(page - 1)} disabled={page === 1}>Prev</button>
-        <button onClick={() => setPage(page + 1)} disabled={page === totalPage}>Next</button>
+        <button onClick={() => setPage(page + 1)} disabled={page === totalPages}>Next</button>
       </div>
     </div>
   )
